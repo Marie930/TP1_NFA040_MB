@@ -35,6 +35,20 @@ img.profil {
     border-radius: 100%;
 }
 
+img.snap {
+    width: 30%;
+    position: relative;
+    padding: 8px;
+}
+
+a.photo .tooltiptext {
+    visibility: hidden;
+}
+
+a.photo:hover .tooltiptext {
+    visibility: visible;
+}
+
 h1 {
     text-align: center;
     color: #dc5688;
@@ -44,6 +58,7 @@ h1 {
 h2 {
     animation-duration: 2s;
     animation-name: slidein;
+    color: #dc5688;
 }
 
 @keyframes slidein {
