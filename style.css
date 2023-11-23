@@ -31,12 +31,12 @@ nav:hover {
 }
 
 img.profil {
-    width: 30%;
-    border-radius: 100%;
+    width: 50%;
+    border-radius: 10%;
 }
 
 img.snap {
-    width: 30%;
+    width: 40%;
     position: relative;
     padding: 8px;
 }
